@@ -50,7 +50,7 @@
 //   });
 
 const promise1 = Promise.resolve(3);
-const promise2 = 42;
+const promise2 = 43;
 const promise3 = new Promise((res, rej) => {
   setTimeout(() => {
     rej("foo");
